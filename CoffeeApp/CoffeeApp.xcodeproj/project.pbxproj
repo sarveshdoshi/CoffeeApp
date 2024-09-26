@@ -17,6 +17,9 @@
 		3543FD522C775B00005793E1 /* NumberFormatter + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3543FD512C775B00005793E1 /* NumberFormatter + Extension.swift */; };
 		3543FD552C775BAA005793E1 /* OrderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3543FD542C775BAA005793E1 /* OrderCellView.swift */; };
 		3543FD582C776BA1005793E1 /* AppEnviorment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3543FD572C776BA1005793E1 /* AppEnviorment.swift */; };
+		35569F462C86EF6E003CCD78 /* AddCoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35569F452C86EF6E003CCD78 /* AddCoffeeView.swift */; };
+		35569F482C86F15A003CCD78 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35569F472C86F15A003CCD78 /* View+Extensions.swift */; };
+		35903BD72CA5C9E3009F469C /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35903BD62CA5C9D9009F469C /* String + Extensions.swift */; };
 		359155C72C7C93BF008231CD /* CoffeeAppE2ETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359155C62C7C93BF008231CD /* CoffeeAppE2ETests.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +45,9 @@
 		3543FD512C775B00005793E1 /* NumberFormatter + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter + Extension.swift"; sourceTree = "<group>"; };
 		3543FD542C775BAA005793E1 /* OrderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCellView.swift; sourceTree = "<group>"; };
 		3543FD572C776BA1005793E1 /* AppEnviorment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnviorment.swift; sourceTree = "<group>"; };
+		35569F452C86EF6E003CCD78 /* AddCoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeView.swift; sourceTree = "<group>"; };
+		35569F472C86F15A003CCD78 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		35903BD62CA5C9D9009F469C /* String + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
 		359155C42C7C93BF008231CD /* CoffeeAppE2ETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeAppE2ETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		359155C62C7C93BF008231CD /* CoffeeAppE2ETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeAppE2ETests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,7 +132,9 @@
 		3543FD502C775AF3005793E1 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				35903BD62CA5C9D9009F469C /* String + Extensions.swift */,
 				3543FD512C775B00005793E1 /* NumberFormatter + Extension.swift */,
+				35569F472C86F15A003CCD78 /* View+Extensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -135,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				3543FD542C775BAA005793E1 /* OrderCellView.swift */,
+				35569F452C86EF6E003CCD78 /* AddCoffeeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -259,9 +268,12 @@
 				3543FD552C775BAA005793E1 /* OrderCellView.swift in Sources */,
 				3543FD4F2C775338005793E1 /* CoffeeModel.swift in Sources */,
 				3543FD3B2C774EE5005793E1 /* CoffeeAppApp.swift in Sources */,
+				35569F462C86EF6E003CCD78 /* AddCoffeeView.swift in Sources */,
+				35903BD72CA5C9E3009F469C /* String + Extensions.swift in Sources */,
 				3543FD4D2C774F9F005793E1 /* Order.swift in Sources */,
 				3543FD4A2C774F36005793E1 /* Webservice.swift in Sources */,
 				3543FD582C776BA1005793E1 /* AppEnviorment.swift in Sources */,
+				35569F482C86F15A003CCD78 /* View+Extensions.swift in Sources */,
 				3543FD522C775B00005793E1 /* NumberFormatter + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
